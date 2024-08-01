@@ -2,10 +2,18 @@
 *{
     box-sizing: border-box;
 }
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
 
-header, main, footer{
+header ,main , aside,footer{
     width: 85%;
     margin-inline: auto;
+}
+header , main , aside , footer{
+    box-shadow: 0px 10px 5px -5px rgba(0,0,0,0.5); 
 }
 
 .container{
@@ -35,6 +43,15 @@ header div p{
 
 nav  ul  li a{
     color: rgba(214, 212, 212, 0.993);
+}
+i{ padding: 5px;
+    font-size: 12px;
+
+}
+
+.nav-fig{
+ color: white;
+
 }
 
 nav{
@@ -70,23 +87,129 @@ p > span{
 .margin-block + ul > li {
     list-style-type: disc;
     margin-left: 30px;
+    margin-block: 0.5;
+    padding: 3px;
 }
 
+
+.simil-tag{
+    background-color: #E4E4DE;
+    border-radius: 10px;
+}
 ol{
     list-style-type: decimal;
     margin-left: 30px;
+}
+.margin-block >span {
+    color: purple;
 }
 
 caption{
     font-weight: 600;
 }
 
-/* ELEMENTI NEL MAIN - ARTICLE */
+table{
+    text-align: center;
+    border-bottom: 2px solid #3366CC;
+    margin-bottom: 2rem;
+}
 
-/* TABELLE */
+th{
+    width: 30%;
+    background-color: #3366CC;
+    border: 1px solid black;
+    padding: 1rem;
+    color: whitesmoke;
+}
 
-/* FORM */
+th > span{
+    position: relative;
+    top: 16px;
+}
 
-/* ELEMENTI NELL' ASIDE */
+thead > tr :last-child{
+    width: 40%;
+}
+
+td{
+    padding: 0.5rem;
+}
+
+tbody > tr:nth-child(even) > td {
+    background-color: lightgray;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+
+}
+
+.fine-articolo > div{
+    margin-bottom: 1.3rem;
+}
+
+iframe{
+    border-radius: 16px;
+}
+
+form > div{
+    margin-top: 1rem;
+}
+
+h5{
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.bg-color{
+    background-color: lightgray;
+    padding: 10px;
+}
+input{
+    border-bottom: 1px dashed black;
+    padding: 2px;
+    
+}
+ button {
+    background-color: #005566 ;
+ }
+aside{
+    background-color: #FFFFFF;
+    margin-top: 1.3rem;
+    padding: 1rem;
+    margin-top: 0;
+}
+
+aside > h5{
+    font-size: 1.2rem;
+}
+
+.panel{
+    padding: 10px;
+    margin-block: 1rem;
+    background-color: lightgray;
+}
+
+.panel :last-child{
+    font-size: 0.7rem;
+    text-align: end;
+    margin-block: 1rem;
+}
 
 /* FOOTER */
+footer{
+    background-color: #005566;
+    padding: 12px;
+    margin-top: 1rem;
+    text-align: center;
+
+}
+footer >div > p {
+    margin-bottom: 20px;
+    font-size: 0.7rem;
+    color: whitesmoke;
+}
+
+a.foot{
+    color: violet;
+}
+
